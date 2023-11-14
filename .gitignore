@@ -90,3 +90,9 @@ dd-java-agent.jar
 
 # ignore local gradle build log
 build.log
+
+#Ignore helm-related files
+charts/airbyte/Chart.lock
+charts/airbyte/values.*.yaml
+charts/airbyte/*.values.yaml
+charts/airbyte/charts/*

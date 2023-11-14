@@ -1427,25 +1427,15 @@ postgresql:
 ##  externalDatabase.database Database name
 ##  externalDatabase.port Database port number
 ##  externalDatabase.jdbcUrl Database full JDBL URL (ex: jdbc:postgresql://host:port/db?parameters)
-##
-# externalDatabase:
-#   host: localhost
-#   user: airbyte
-#   password: airbyte
-#   existingSecret: ""
-#   existingSecretPasswordKey: ""
-#   database: db-airbyte
-#   port: 5432
-#   jdbcUrl: ""
 
 externalDatabase:
-  host: nip-db-staging.postgres.database.azure.com
-  user: nipadmindev
-  password: xc8hsp6dhwiq4245kMxdy9HHd968
+  host: PLACEHOLDER_POSTGRES_STAGING_HOST
+  user: PLACEHOLDER_POSTGRES_STAGING_USERNAME
+  password: PLACEHOLDER_POSTGRES_STAGING_PASSWORD
   existingSecret: ""
   existingSecretPasswordKey: ""
   database: airbyte
-  port: 5432
+  port: PLACEHOLDER_POSTGRES_STAGING_PORT
   jdbcUrl: ""
 
 ## @section Logs parameters
