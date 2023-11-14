@@ -38,5 +38,8 @@ dependencies:
 - name: keycloak-setup
   repository: https://airbytehq.github.io/helm-charts/
   version: 0.49.23
-digest: sha256:d0db764fb2d6ec6e4526ed083b78f6ce244f5e7f01403cdf57db244b9192b14e
-generated: "2023-11-14T00:19:01.419736767Z"
+- name: traefik
+  repository: https://helm.traefik.io/traefik
+  version: 10.24.0
+digest: sha256:377844d90c8399c4184d619c6f49aba1de60bc7385ff8a8402b1fa6e6b0b4327
+generated: "2023-11-14T09:42:20.025658+02:00"
